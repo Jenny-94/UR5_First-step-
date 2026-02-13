@@ -1,0 +1,15 @@
+# motions에 정의한 동작의 이름
+# routines에 정의한 동작 실행 순서
+# hw3. ur5_saved_poses.json 파일에 대한 설명 추가
+# 만약, routines를 정의하지 않을 경우, dance_master가 motion중 무작위로 5개를 골라 명령을 내린다. 
+# 또한, 움직이며 joint 값이 변경되거나 틀어질 수 있으니 routines 정의 -> test 까지 필요함.
+
+
+motions:
+  - test1
+  - test2
+
+routines:
+  - test1
+  - test2
+  - test1
